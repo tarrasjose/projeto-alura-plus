@@ -1,0 +1,77 @@
+@media screen and (max-width: 450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .principal {
+        position: relative;
+        background-image: none;
+        background-image: url("img/Background\ -\ Cortado.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 8em;
+    }
+    
+    .container__caixa {
+        position: absolute;
+        top: 300px;
+    }
+
+    .container__titulo {
+        font-size: 1.5em;
+    }
+
+
+    
+    
+    
+    .secundario__imagem {
+        order: -1;
+    }
+
+    .secundario {
+        height: 100%;
+        align-items: center;
+        margin: 8em 0;
+        
+    }
+
+    .secundario__botao {
+        width: 90%;
+        text-align: center;
+    }
+
+   
+    
+    
+    
+    
+    /*dispositivos*/
+    .dispositivos__lista {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .dispositivos__titulo {
+        font-size: 28px;
+        margin: 0 0.5em;
+    }
+
+    .lista__imagem {
+        width: 60%;
+    }
+
+    .lista__item {
+        font-size: 20px;
+    }
+
+    /*rodape*/
+    .rodape__lista {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
