@@ -28,11 +28,7 @@ body {
     text-align: center;
 }
 
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
+
 
 .container__botao {
     background-color: var(--botao-azul);
